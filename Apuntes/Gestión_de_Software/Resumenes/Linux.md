@@ -11,4 +11,7 @@ Hay alternativas fuera de los repositorios oficiales, como repositorios adiciona
 
     - Familia de comandos apt-... (apt-get, apt-cache, ...): Las herramientas más utilizadas para gestionar software y de los comandos más usados para gestionar software a través de scripts.
 
-    - Comando apt:
+    - Comando apt: Es un poco más reciente que los anteriores comandos apt-... y soluciona parte de los defectos que estos tenían. Ejemplo: apt search, apt install, etc.
+
+    - Comando aptitude: Se puede usar con argumentos pero su principal característica es que presenta una interfaz en modo texto que permite la gestión a través de menús.
+    
