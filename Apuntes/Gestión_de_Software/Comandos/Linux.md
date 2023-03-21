@@ -1,9 +1,5 @@
 # Comandos 
 
-## Operación 
-##	- apt-... 
-##	- apt
-
 - Listar todos los respositorios del sistema
 	- apt-cache policy 	
 	- apt policy
