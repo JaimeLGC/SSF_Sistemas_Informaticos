@@ -1,1 +1,0 @@
-Fichero dedicado a apuntes y resúmenes de temas dados
