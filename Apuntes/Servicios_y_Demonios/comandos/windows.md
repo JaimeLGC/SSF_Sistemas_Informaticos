@@ -32,5 +32,31 @@ Mostrar configuración de un servicio
 Indicar qué hacer si un servicio falla
 	- sc failure
 	
-Mostrar qué se hace cuando un servicio falla 	sc qfailure
-	
+Mostrar qué se hace cuando un servicio falla 	
+	- sc qfailure
+
+## Ejemplos servicios con powershell
+
+- Get-Service
+
+- Get-Service -Name WpcMonSvc
+
+- Get-Service -Name WpcMonSvc | Start-Service
+
+- Stop-Service -Name WpcMonSvc
+
+- Get-Service -Name WpcMonSvc | Get-Member
+
+- Get-Service -Name WpcMonSvc | Select -exp Status
+
+- $serv = Get-Service -Name WpcMonSvc
+
+- $serv | Start-Service
+
+- $serv.status
+
+- $serv | Suspend-Service
+
+- $serv | Resume-Service
+
+- $serv | Stop-Service
