@@ -1,1 +1,0 @@
-Apuntes de gestión de software
