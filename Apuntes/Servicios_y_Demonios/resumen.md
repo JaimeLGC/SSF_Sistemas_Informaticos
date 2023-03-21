@@ -7,31 +7,31 @@
 ## Características
 
 
-    - Se ejecutan en segundo plano (background)
+- Se ejecutan en segundo plano (background)
 
-    - Carecen de interfaz (gráfica o de texto) para comunicarse con el usuario.
-    
-    - No suelen hacer uso de las entradas y salidas estándares del sistema (teclado, pantalla, etc.).  
+- Carecen de interfaz (gráfica o de texto) para comunicarse con el usuario.
 
-    - No suele haber comunicación directa con el usuario y si este necesitara transmitir alguna información, la comunicación se realiza mediante otras aplicaciones (por ejemplo, la aplicación at con el demonio atd). 
+- No suelen hacer uso de las entradas y salidas estándares del sistema (teclado, pantalla, etc.).  
 
-    - Para comunicar errores o mensajes, se basan en ficheros de registros (logs, normalmente localizados en /var/log).
+- No suele haber comunicación directa con el usuario y si este necesitara transmitir alguna información, la comunicación se realiza mediante otras aplicaciones (por ejemplo, la aplicación at con el demonio atd). 
+
+- Para comunicar errores o mensajes, se basan en ficheros de registros (logs, normalmente localizados en /var/log).
+
+- En LINUX existe una convención por la que sus nombres suelen acabar en la letra "d" para indicar que son demonios, y diferenciarse de los procesos de las aplicaciones clientes, sobre todo cuando se llaman igual. Ejemplos: mysqld/mysql, atd/at, crond/cron, sshd/ssh, etc.
+
+- Suelen llevar a cabo tareas especiales y básicas del sistema operativo (como por ejemplo las relacionadas con el control del hardware), muchas de ellas críticas sin las que el equipo no podría funcionar correctamente.
+
+- En general, suelen ser "residentes" y siempre están en ejecución desde que se carga el sistema operativo, ya que realizan tareas de suma importancia para el funcionamiento de los equipos.
+
+- Si tratamos de "matarlos" manualmente, es probable que puedan ser activados de nuevo automáticamente por otros servicios que los necesiten.
+
+- Son gestionados y controlados por el sistema operativo (sistema de inicialización en Linux, por el administrador de servicios en Windows, etc.) 
+
+- En general, en entornos GNU/Linux se suelen ejecutar con privilegios de superusuario (usuario "root") y en la mayoría de veces tienen como padre al proceso init (PID 1). 
     
-    - En LINUX existe una convención por la que sus nombres suelen acabar en la letra "d" para indicar que son demonios, y diferenciarse de los procesos de las aplicaciones clientes, sobre todo cuando se llaman igual. Ejemplos: mysqld/mysql, atd/at, crond/cron, sshd/ssh, etc.
-    
-    - Suelen llevar a cabo tareas especiales y básicas del sistema operativo (como por ejemplo las relacionadas con el control del hardware), muchas de ellas críticas sin las que el equipo no podría funcionar correctamente.
-    
-    - En general, suelen ser "residentes" y siempre están en ejecución desde que se carga el sistema operativo, ya que realizan tareas de suma importancia para el funcionamiento de los equipos.
-    
-    - Si tratamos de "matarlos" manualmente, es probable que puedan ser activados de nuevo automáticamente por otros servicios que los necesiten.
-    
-    - Son gestionados y controlados por el sistema operativo (sistema de inicialización en Linux, por el administrador de servicios en Windows, etc.) 
-    
-    - En general, en entornos GNU/Linux se suelen ejecutar con privilegios de superusuario (usuario "root") y en la mayoría de veces tienen como padre al proceso init (PID 1). 
-     
-    - Debemos intentar tener activos el mínimo de servicios posibles, sólo los que sean necesarios.
-    
-    - No sólo hay servicios relacionados con la máquina y el sistema operativo. Al instalar aplicaciones de terceros puede darse el caso de que también instalen servicios asociados (por ejemplo, para comprobar que hay actualizaciones, etc.).
+- Debemos intentar tener activos el mínimo de servicios posibles, sólo los que sean necesarios.
+
+- No sólo hay servicios relacionados con la máquina y el sistema operativo. Al instalar aplicaciones de terceros puede darse el caso de que también instalen servicios asociados (por ejemplo, para comprobar que hay actualizaciones, etc.).
 
 
 ## Estados
