@@ -1,5 +1,7 @@
 # Práctica servicios y demonios
 
+## Linux
+
 - 1 - Quieres saber si un proceso es un servicio y comprobar su estado
     
     systemctl status 'proceso'
@@ -55,3 +57,50 @@
 - 14 - Quieres que el servicio pueda volver a activarse
 
     sudo systemctl unmask 'servicio'
+
+- 15 - Quieres configurar el servicio para que se vuelva a iniciar ahora y siempre que se arranque el sistema
+
+    sudo systemctl enable 'servicio' --now
+
+- 16 - Quieres reiniciar la máquina con los niveles de ejecución
+
+    sudo systemctl isolate runlevel6.target
+
+
+## Windows
+
+- 17 - Listar los servicios del sistema
+
+    sc query 
+
+- 18 - Listar solo los servicios inactivos
+
+    sc query state=inactive
+
+- 19 - Mostrar informacion sobre un servicio
+
+    sc query 'servicio'
+
+- 20 - Ejecutar el servicio
+
+    sc start 'servicio'
+
+- 21 - Pausar el servicio
+
+    sc pause 'servicio'
+
+- 22 - Ejecutar el servicio despues de pausarlo
+
+    sc continue 'servicio'
+
+- 23 - Mostrar la configuración del servicio
+
+    sc qc 'servicio'
+
+- 24 - Hacer que el servicio se inicie de forma autmática al arrancar
+
+    sc config 'servicio' start=auto
+
+- 25 - Detener el servicio
+
+    sc stop 'servicio
