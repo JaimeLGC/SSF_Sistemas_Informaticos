@@ -74,6 +74,7 @@ Def: Hilo de cobre en la parte central rodeado por una malla metálica y separad
 
 ## Tipos de Ethernet 
 
+
 ## Colisiones en Ethernet
 
 ## Dispositivos de Interconexión 
