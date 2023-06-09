@@ -70,31 +70,137 @@ Def: Hilo de cobre en la parte central rodeado por una malla metálica y separad
     - 50 ohmios de impedancia
     - Flexible y de fácil instalación
 
-### Fibra Óptica
+Fibra Óptica
 
-## Tipos de Ethernet 
+Tipos de Ethernet 
 
+Colisiones en Ethernet
 
-## Colisiones en Ethernet
+Dispositivos de Interconexión 
 
-## Dispositivos de Interconexión 
+Repetidores 
 
-### Repetidores 
+Concentradores o Hubs
 
-### Concentradores o Hubs
+Puentes 
 
-### Puentes 
+Conmutadores o switch 
 
-### Conmutadores o switch 
+Encaminadores o Routers 
 
-### Encaminadores o Routers 
-
-### Pasarelas
+Pasarelas
 
 # Capa de enlace
 
+Servicios típicos
+
+Entramado
+
+Métodos de acceso al medio.
+
+Sincronismo.
+
+Direccionamiento físico.
+
+Control de flujo.
+
+Detección y corrección de errores
+
+Entrega fiable
+
+Multiplexación de protocolos a través del enlace.
+
+Subcapas
+
+MAC (control de acceso al medio)
+
+LLC (control del enlace lógico) 
+
+Direccionamiento físico
+
+Direcciones MAC especiales
+
+UNICAST.
+
+BROADCAST.
+
+MULTICAST
+
+Modo promiscuo
+
+Métodos basados en el particionado del canal
+
+Particionado del tiempo de uso del canal (TDM)
+
+Particionado del ancho de banda del canal (FDM)
+
+Acceso múltiple por división de código (CDMA)
+
+Métodos basados en la toma de turnos
+
+Protocolo de sondeo (polling)
+
+Protocolo de paso de testigo (token passing)
+
+Métodos basados en el acceso aleatorio
+
+Aloha
+
+CSMA
+
+CSMA/CD
+
+CSMA/CA
+
+Códigos de detección de errores
+
+Bits de paridad
+
+Paridad bidimensional
+
+Sumas de comprobación (checksum)
+
+Códigos polinomiales o de comprobación de redundancia cíclica(CRC)
+
+Topologías Ethernet
+
+Conmutación de las tramas
+
+Conmutadores o switches
+
+Dominios de colisión
+
+Dominios de difusión
+
+Protocolos de enlace en las LAN
+
+Ethernet DIX.
+
+IEEE 802.3 y derivados
+
+Ethernet DIX‐II.
+
+Redes Ethernet actuales: Ethernet II.
+
+Token ring y el estándar IEEE 802.5
+
+FDDI (fiber distributed data interface)
+
+Protocolos de enlace en las LAN inalámbricas
+
+Familia de estándares IEEE 802.11.
+
+Bluetooth y los estándares IEEE 802.15
+
+Protocolos de enlace avanzados
+
+IEEE 802.1Q.
+
 # Capa de red
+
+
 
 # Capa de transporte
 
 # Capa de aplicación
+
