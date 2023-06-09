@@ -198,9 +198,49 @@ IEEE 802.1Q.
 
 # Capa de red
 
+TCP/IP
 
+Direcciones IP
+
+2 Direcciones IP especiales y reservadas
+
+3 Máscara de subred
+
+4 Protocolo IP
+
+5 Formato del datagrama IP
+
+- Fragmentación
+
+6 Protocolo ARP
+
+- Tabla ARP (caché ARP)
+
+7 Protocolo ICMP
+
+- Solicitud y respuesta de eco
+
+- Utilización de PING para diagnosticar errores en una red aislada
+
+- Utilización de PING para diagnosticar errores en una red de redes
+
+- Mensajes ICMP de tiempo excedido
 
 # Capa de transporte
+
+Explicar la necesidad de la capa de Transporte. 
+
+x Identificar la función de la capa de Transporte a medida que provee la transferencia de datos de extremo a 
+extremo entre las aplicaciones. 
+
+x Describir las funciones de dos protocolos TCP/IP de la capa de transporte: TCP y UDP. 
+
+x Explicar las funciones clave de la capa de Transporte incluyendo confiabilidad, direccionamiento de puerto y 
+segmentación. 
+
+x Explicar cómo cada TCP y UDP maneja las funciones clave. 
+
+x Identificar cuándo es apropiado usar TCP o UDP y proveer ejemplos de aplicaciones que usan cada protocolo
 
 # Capa de aplicación
 
